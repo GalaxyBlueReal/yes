@@ -19,11 +19,11 @@ local waitDeps = {
 	'LuaZ';
 }
 for i,v in pairs(waitDeps) do script:WaitForChild(v) end
-local luaX = require(script.LuaX)
-local luaY = require(script.LuaY)
-local luaZ = require(script.LuaZ)
-local luaU = require(script.LuaU)
-local rerubi = require(script.Rerubi)
+local luaX = require(LuaX)
+local luaY = require(LuaY)
+local luaZ = require(LuaZ)
+local luaU = require(LuaU)
+local rerubi = require(Rerubi)
 luaX:init()
 local LuaState = {}
 getfenv().script = nil
