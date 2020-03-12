@@ -9,16 +9,6 @@
 	
 	einsteinK was here again to fix a bug in LBI for if-statements
 --]]
-local waitDeps = {
-	'Rerubi';
-	'LuaK';
-	'LuaP';
-	'LuaU';
-	'LuaX';
-	'LuaY';
-	'LuaZ';
-}
-for i,v in pairs(waitDeps) do script:WaitForChild(v) end
 local luaX = require(LuaX)
 local luaY = require(LuaY)
 local luaZ = require(LuaZ)
